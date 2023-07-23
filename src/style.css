@@ -1,0 +1,75 @@
+.root {
+    -fx-background-color: Black; 
+    -fx-alignment:center;
+}
+
+
+.label {
+    -fx-font-size: 16px;
+    -fx-text-fill: aliceblue;
+    -fx-font-weight: bold;
+}
+
+.button{
+    -fx-background-color:rgb(21, 21, 21);
+    -fx-text-fill:aliceblue;
+    -fx-border-color: rgb(93, 89, 89);
+    -fx-border-width: 1px;
+    -fx-border-radius:10px;
+    -fx-background-radius: 10px;
+}
+.button:hover
+{
+    -fx-background-color:aliceblue;
+    -fx-text-fill:black;
+
+
+}
+
+.text{
+    -fx-padding:8px;
+    -fx-background-color:rgb(21, 21, 21);
+    -fx-text-fill:aliceblue;
+    -fx-border-color: rgb(93, 89, 89);
+    -fx-border-width: 1px;
+    -fx-border-radius:10px;
+    -fx-max-width:300px;
+}
+
+
+.table-view {
+    -fx-background-color: black;
+}
+
+.table-row-cell {
+    -fx-background-color: black;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-alignment: center; 
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #222222;
+}
+
+.table-cell {
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-border-width: 0 0 1 0;
+    -fx-padding: 0.2em 0.2em 0.2em 0.2em;
+}
+
+.table-view .column-header {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-border-width: 0 0 1 0;
+    -fx-padding: 0.2em;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: black;
+}
+
+.table-view .table-column {
+    -fx-alignment: CENTER;
+  }
